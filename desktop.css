@@ -27,13 +27,24 @@ canvas{
 #title
 {
     order: 2;
-    font-size: 6rem;
+    font-size: 4.5vw;
     display: flex;
-    justify-content: flex-start;
-    margin-left: 19rem;
+    justify-content: center;
+    margin-top: 1vw;
+    margin-left: -14vw;
+
+    /* itp content styling */
+    /* order: 2;
+    font-size: 3.5vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 1vw;
+    margin-left: -3vw; */
 }
 
 .phrase
 {
-    margin: 5rem;
+    font-size: 0.9vw;
+    margin: 1vw;
+
 }
