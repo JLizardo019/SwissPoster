@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body
+{ 
+    display: flex;
+    flex-direction: column;
+    background-color: #dbe2d4;
+    font-family: 'Cabin', sans-serif;
+}
+
+canvas{
+    display: block;
+    margin: auto;
+}
+
+#info
+{
+    order: 3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#title
+{
+    order: 2;
+    font-size: 6rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 19rem;
+}
+
+.phrase
+{
+    margin: 5rem;
+}

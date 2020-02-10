@@ -4,6 +4,8 @@
 
 body
 { 
+    display: flex;
+    flex-direction: column;
     background-color: #dbe2d4;
     font-family: 'Cabin', sans-serif;
 }
@@ -13,21 +15,26 @@ canvas{
     margin: auto;
 }
 
-#title
-{
-    font-size: 6rem;
-    
-}
-
 #info
 {
+    order: 3;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+#title
+{
+    order: 2;
+    font-size: 5rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 9rem;
+}
+
 .phrase
 {
-    margin: 3rem;
+    margin: 2rem;
+    font-size: 0.4rem;
 }

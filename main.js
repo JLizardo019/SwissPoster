@@ -1,15 +1,15 @@
-// let size =130;
-// function setup() {
-//   createCanvas(500, 500);
-//   noStroke();
-// }
+// // let size =130;
+// // function setup() {
+// //   createCanvas(500, 500);
+// //   noStroke();
+// // }
 
-// 500 square and 3.84 size
+// // 500 square and 3.84 size
 let size =0;
 let cnv;
 function setup() {
-  size = windowWidth*.60/3.84;
-  cnv =createCanvas(windowWidth*.60, windowWidth*.60);
+  size = windowWidth*0.60/3.84;
+  cnv =createCanvas(windowWidth*0.60, windowWidth*0.60);
   //cnv.position((windowWidth*.60)/, 0);
   noStroke();
 }
@@ -44,5 +44,5 @@ function draw() {
 
 function windowResized() {
     size = windowWidth*.60/3.84;
-    resizeCanvas(windowWidth*.60, windowWidth*.60);
+    resizeCanvas(windowWidth*0.60, windowWidth*0.60);
   }

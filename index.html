@@ -4,13 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link  rel="stylesheet" href="styles.css"></link>
     <link href="https://fonts.googleapis.com/css?family=Cabin:700&display=swap" rel="stylesheet">
     <script src="main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+
+      <!-- Media query for narrow browser width -->
+      <link rel="stylesheet" media="only screen and (max-width: 480px)" href="mobile.css">
+      <!– Media query for medium browser width –>
+      <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="tablet.css">
+      <!– Media query for full browser width –>
+      <link rel="stylesheet" media="only screen and (min-width: 961px)" href="desktop.css">
+      <!– Prevent smartphones from scaling pages down –>
+      <meta name=”"viewport" content="initial-scale=">
+
     <title>Document</title>
 </head>
 <body>
+    
     <h1 id ="title">david bowie</h1>
     <div id ="info">
         <h5 class="phrase">with the flamin' groovies,<br>special guests from the u.s.a.</h5>
