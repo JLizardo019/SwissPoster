@@ -2,7 +2,7 @@
 <!-- A one sentence description of the project or assignment -->
 This is a project that explores the design and development process of recreating a Swiss Poster.
 
-![Swiss Poster](images/original.png)
+<img src="images/original.png" alt="swiss poster" width="40%" />
 
 <!-- It is good practice to add an about or summary -->
 ## About
@@ -29,16 +29,16 @@ I also created an alternate site using text promoting the ITP Spring Show 2020 [
 
 ### Process
 
-![Swiss Poster](images/grid.png)
+<img src="images/grid.png" alt="swiss poster" width="40%" />
 1. I analyzed the grid of the poster I chose and marked the layout using guidelines in Adobe Photoshop.
 
-![Swiss Poster](images/colors.png)
+<img src="images/colors.png" alt="swiss poster" width="40%" />
 2. Next, I established the color palette used in the poster and their coresponding hex values.
 
-![Swiss Poster](images/typography.png)
+<img src="images/typography.png" alt="swiss poster" width="40%" />
 3. Using the website WhatTheFont!, I identified the fonts used in the poster. I ended up using the font Cabin by Google Fonts in my design since Basic Commercial Pro Bold is not free. They are very similar typefaces.
 
-![Swiss Poster](images/wireframe.png)
+<img src="images/wireframe.png" alt="swiss poster" width="40%" />
 4. I established my wireframe before moving on to coding.
 
 5. I created the main block design using p5.js and added the interactive component of using the mousePressed() function to cycle through variations of the block design.
